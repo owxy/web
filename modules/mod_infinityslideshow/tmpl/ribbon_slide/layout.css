@@ -1,0 +1,31 @@
+
+/* CSS Document */
+
+/* frame */
+.ribbonslides { height:376px; position:relative; overflow:hidden; z-index:100; }
+ 
+.ribbonslideslist{ padding:0px; margin:0px; text-align:left;}
+
+
+div#slideshowbanner ,
+div#slideshowbanner div.slide{ overflow:hidden;    height:376px;  padding:0px; margin:0px; list-style:none;}
+ 
+ .rbpagination{   }
+ 
+ .slidestext{ position:absolute; left:0; top:50px; z-index:10001; }
+ .slidesimages{ position:absolute; left:0px; left:0px ; z-index:10000;}
+
+.slideinbox{ position:relative; height:376px; width:980px; margin:0 auto; }
+
+.slidestext{ text-align:left;}
+
+.rbpagination-icon{ position:absolute;  z-index:100561;height: 62px;   margin:0px auto; height: 70px; bottom:45px;}
+.rbslidepager{ width:980px; margin:0px auto; text-align:left;}
+
+.rbpagination{ width:378px;}
+.rbpagination-icon ul { margin:0 auto; float:left;}
+.rbpagination-icon li{ float:left;}
+.rbpagination-icon li a{ text-indent:-99999px; background-repeat:no-repeat; background-position:0 0; height:62px; width:62px; display:block; float:left; margin-right:1px; z-index: 100; margin-top:8px;}
+
+.rbpagination-icon li a:hover{ background-position:left bottom; }
+.rbpagination-icon li.current a{ background-position:left bottom; margin-top:0;}

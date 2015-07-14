@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+#loading{
+	height:50px;
+	background:url(jquery/load.gif) no-repeat center;
+	
+}
+.JqueryGrid table{
+	border-left:1px solid #dddddd;
+	border-bottom:1px solid #dddddd;
+}
+.JqueryGrid th, .JqueryGrid tr td {
+	padding-left:5px;
+	border-right:1px solid #dddddd;
+	height:25px;line-height:20px;
+}
+.JqueryGrid tr th {
+	border-top:1px solid #dddddd;
+	background:url(jquery/fhbg.gif) repeat-x bottom;
+	line-height:30px;
+	cursor:pointer;
+}
+.JqueryGrid th.sortasc div{ background:url(jquery/up.png) no-repeat bottom center;}
+.JqueryGrid th.sortdesc div{ background:url(jquery/dn.png) no-repeat bottom center;}
+.JqueryGrid tr.filterTr td select{
+	 margin:5px 0;
+	 
+}
+.JqueryGrid tr td {
+	background:#e7e7e7;
+	border-bottom:1px solid #e7e7e7;
+}
+.JqueryGrid tr.erow td,.JqueryGrid tr.filterTr td  {
+	background:#f7f7f7;
+	border-bottom:1px solid #f7f7f7;
+}
+.JqueryGrid tr.trhover td {
+	background:#6699ff;
+}
+.JqueryGrid tr.trSelected td{background:#6699ff;}
+
+.JqueryGrid .pClear{ clear:both;}
+
+.JqueryGrid .plistDiv {
+	float:left;
+}
+.JqueryGrid div.pGroup {
+	float: left;
+	background: none;
+	height: 24px;
+	margin: 5px;
+	line-height:24px;
+}
+.JqueryGrid div.pButton {
+	float: left;
+	width: 22px;
+	height: 22px;
+	border: 0px;
+	cursor: pointer;
+	overflow: hidden;
+}
+.JqueryGrid div.btnseparator {
+	float: left;
+	height: 22px;
+	margin: 1px;
+}
+.JqueryGrid div.pButton:hover, .JqueryGrid div.pButton.pBtnOver {
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+.JqueryGrid div.pButton span {
+	width: 20px;
+	height: 20px;
+	display: block;
+	float: left;
+}
+.JqueryGrid div.pButton:hover span, .JqueryGrid div.pButton.pBtnOver span {
+	width: 19px;
+	height: 19px;
+}
+.JqueryGrid .pSearch {
+	background: url(jquery/magnifier.png) no-repeat center;
+}
+.JqueryGrid .pFirst {
+	background: url(jquery/first.gif) no-repeat center;
+}
+.JqueryGrid .pPrev {
+	background: url(jquery/prev.gif) no-repeat center;
+}
+.JqueryGrid .pNext {
+	background: url(jquery/next.gif) no-repeat center;
+}
+.JqueryGrid .pLast {
+	background: url(jquery/last.gif) no-repeat center;
+}
+.JqueryGrid .pReload {
+	background: url(jquery/load.png) no-repeat center;
+}
+.JqueryGrid .pReload .loading {
+	background: url(jquery/load.gif) no-repeat center;
+}
+
+/**jquerygrid th style set**/
+.PrtflCdeDiv{ width:90px;}
+.PrtflNmDiv{ width:120px;}
+.PrtflCcyCdeDiv{ width:95px;}
+.PrtflCustdDiv{ width:200px; }
+.PrtflStatusDiv{ width:50px;}
+.PrtflEftiveDTDiv{ width:90px;}
+.PrtflMgrDiv{ width:90px;}
+
+
+/** jquerygrid items button style set **/
+.JqueryGrid tr td .editButton {
+	background:url(jquery/search_page.png) no-repeat left center;
+	cursor:pointer;
+	padding-left:18px;
+}
+.JqueryGrid tr td .deleteButton{ 	background:url(jquery/delete_page.png) no-repeat left center;
+	cursor:pointer;
+	padding-left:18px;
+}

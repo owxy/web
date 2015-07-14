@@ -1,0 +1,286 @@
+/* 排序CSS */
+/* ----------------------------------------------------------------- */
+.sort-arrow
+{
+	background-position:center center;
+	margin:0px 2px;
+	width:11px;
+	background-repeat:no-repeat;
+	height:11px;
+}
+
+.descending
+{
+	background-image:url(/ClientDatabase/images/sort/downsimple.png);
+}
+
+.ascending
+{
+	background-image:url(/ClientDatabase/images/sort/upsimple.png);
+}
+
+/* ----------------------------------------------------------------- */
+
+.banner
+{
+	color:gray;
+	padding-left:5px;
+	font:bold 14pt Arial;
+}
+
+.bigrowtext
+{
+	color:gry;
+	text-align:right;
+	font:bolder 9pt arial;
+}
+
+.bgbody
+{
+	margin:0px;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-position:left top;
+	background-image:url(/ClientDatabase/images/sideBrand.jpg);
+}
+
+.bodytext
+{
+	margin-left:10px;
+	margin-top:10px;
+}
+
+.button
+{
+	cursor:hand;
+	padding:1px 1px;
+	text-align:center;
+	background:#99CCFF;
+	border:1px solid #663399;
+}
+
+.button1
+{
+	width:80px;
+	height:30px;
+	background:white;
+	font:bolder 9pt Tahoma;
+}
+.caption
+{
+	color:gray;
+	padding-left:5px;
+	font:bold 9pt Arial;
+}
+
+.copyright
+{
+	color:red;
+	text-align:center;
+	font:8pt/9pt Arial;
+	text-decoration:none;
+}
+
+.main
+{
+	background-color: #00ffff;
+}
+
+.msgtext1
+{
+	color:red;
+	text-align:center;
+	font:9pt Tahoma;
+}
+
+.msgtext2
+{
+	color:blue;
+	font:9pt Arial;
+}
+
+.nav
+{
+	color:white;
+	padding-left:5px;
+	font:bold 9pt Arial;
+	background:#1E90FF;
+}
+
+.textbox
+{
+	width:150px;
+	font:12pt Arial;
+}
+
+.textbox1
+{
+	color:blue;
+	width:150px;
+	font:bolder 9pt Tahoma;
+	border:thin solid blue;
+}
+
+.textbox2
+{
+	width:200px;
+	font:9pt Arial;
+}
+
+a:visited
+{
+	color:Blue;
+}
+
+a.whitelink:link
+{
+	color:white;
+	text-decoration:none;
+}
+
+a.whitelink:hover
+{
+	color:white;
+	text-decoration:none;
+}
+
+a.whitelink:visited
+{
+	color:white;
+	text-decoration:none;
+}
+
+/* 搜索表单的样式 */
+table.search
+{
+	background-color: #87cefa;
+}
+
+/* 标题行 */
+tr.title
+{
+	color:white;
+	padding-left:5px;
+	padding-right:5px;
+	text-align:center;
+	font:bold 9pt Arial;
+	background-color:gray;
+}
+
+/* 翻页的导航条所在行 */
+tr.pageRoll
+{
+	font:9pt Arial;
+	line-height:23px;
+	padding-left: 3px;
+	padding-right: 3px;
+	background-color: #f1f1f1;
+}
+
+/* 列表奇数内容行 */
+tr.list_odd
+{
+	font:9pt Arial;
+	line-height:23px;
+	padding-left: 3px;
+	padding-right: 3px;
+	text-align: center;
+	background-color: #87cefa;
+	behavior: url(/ClientDatabase/css/behavior.htc);
+}
+
+/* 列表偶数内容行 */
+tr.list_even
+{
+	font:9pt Arial;
+	line-height:23px;
+	padding-left: 3px;
+	padding-right: 3px;
+	text-align: center;
+	background-color: #e0ffff;
+	behavior: url(/ClientDatabase/css/behavior.htc);
+}
+
+/* 当鼠标移至列表行的样式 */
+tr.list_over
+{
+	font:9pt Arial;
+	line-height:23px;
+	padding-left: 3px;
+	padding-right: 3px;
+	text-align: center;
+	background-color: #ffffcc;
+	behavior: url(/ClientDatabase/css/behavior.htc);
+}
+
+/* 主表格页首左单元格 */
+td.headerLeft
+{
+	width:40%;
+	font:9pt Arial;
+	padding:10px;
+	padding-left:3px;
+}
+
+/* 主表格页首中间单元格 */
+td.headerCenter
+{
+	text-align:center;
+	font:bold 15pt Arial;
+}
+
+/* 主表格页首右单元格 */
+td.headerRight
+{
+	width:40%;
+	color:Red;
+	padding:10px;
+	text-align:right;
+	font:bold 9pt Arial;
+}
+
+/* 表格主标题 */
+td.title
+{
+	height: 40px;
+	text-align: center;
+	padding-left: 3px;
+	padding-right: 3px;
+	font:bold 15pt Arial;
+}
+
+/*表单标题栏*/
+td.form_title
+{
+	color: gray;
+	height:25px;
+	text-align: right;
+	padding-left: 3px;
+	padding-right: 3px;
+	font:bold 9pt Arial;
+}
+
+/*表单输入框*/
+td.form_input
+{
+	text-align: left;
+	padding-left: 3px;
+	padding-right: 3px;
+	font:9pt Arial;
+}
+
+td.footer
+{
+	height:40px;
+	text-align:center;
+}
+
+/* 错误提示 */
+td.error, div.error
+{
+	color: red;
+	padding-left: 3px;
+	padding-right: 3px;
+	text-align: center;
+	font:bold 12pt Arial;
+}

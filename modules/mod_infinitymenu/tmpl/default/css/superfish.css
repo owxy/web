@@ -1,0 +1,75 @@
+
+/* CSS Document */
+
+/** Essintial Style **/
+#inf_menu_main{ width:auto; float:right; z-index:50;}
+#inf_menu_main * {z-index:51; }
+/* level 1 */
+.sf-menu          { margin:0; padding:0; }
+.sf-menu li       { float:left; list-style:none; margin:0; padding:0; position:relative; }
+.sf-menu li:hover { visibility:inherit; /* fixes IE7 'sticky bug' */ }
+.sf-menu li a     { display:block; }
+/* level 2 */
+.sf-menu li ul         { position:absolute; left:-9999px; width:185px; /* left offset of submenus need to match (see below) */ }
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul { /* expand up using `bottom` & expand down using `top` (see below) */ left:-13px; top:40px; z-index:99; }
+/* level 3 */
+.sf-menu li:hover li ul,
+.sf-menu li.sfHover li ul { left:-9999px; }
+.sf-menu li li:hover ul,
+.sf-menu li li.sfHover ul { left:236px; /* match ul width */ top:0; }
+.sf-menu li.item_12 li.sfHover ul { left:-236px; /* match ul width */ top:0; }
+
+.sf-menu li.last li:hover ul,
+.sf-menu li.last li.sfHover ul { left:-236px; /* match ul width */ top:0; }
+/* level 4 */
+.sf-menu li li:hover li ul,
+.sf-menu li li.sfHover li ul { left:-9999px; }
+.sf-menu li li li:hover ul,
+.sf-menu li li li.sfHover ul { left:185px; /* match ul width */ top:0; }
+
+
+/** Skin **/
+/* level 1 */
+.sf-menu                        { }
+.sf-menu li                     { text-decoration:none; margin-right:27px;}
+.sf-menu li.item_1				{ display:none;}
+.sf-menu li.last				{ margin-right:0;}
+.sf-menu li a                   { color:#333333; font-size:16px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; text-decoration:none; background:url(../images/menu_icon.png) left 3px no-repeat; padding-left:19px;}
+.sf-menu li a:hover,
+.sf-menu li.active a,
+.sf-menu li.sfHover a,
+.sf-menu li.current a           { color:#BB0020; background:url(../images/menu_iconhover.png) left 3px no-repeat;  }
+.sf-menu li a .sf-sub-indicator { display:none; } /* arrow */
+/* level 2 */
+.sf-menu li ul           { width:236px; background:url(../images/dropmenu_b.png) left bottom no-repeat; padding-bottom:7px; margin:0;}
+.sf-menu li li           { border:0; padding:0; background:url(../images/dropmenu_bg.png) left top repeat-y; display:block; padding:0; width:236px;}
+.sf-menu li.sfHover li a { color:#fff; display:block; background:none; font-size:12px; font-weight:bold; text-align:left; padding:0 13px; line-height:22px; }
+.sf-menu li li a:hover,
+.sf-menu li li.current a,
+.sf-menu li li.sfHover a { background:url(../images/dropmenu_hover.png) repeat;}
+.sf-menu li li.last a    { border:0; }
+
+.sf-menu li ul ul{ display:none;}
+/* level 3 */
+.sf-menu li li ul           { width:236px; background:url(../images/dropmenu_b.png) left bottom no-repeat; padding-bottom:7px; margin:0;}
+.sf-menu li li li	         { border:0; padding:0; background:url(../images/dropmenu_bg.png) left top repeat-y; display:block; padding:0; width:236px;}
+.sf-menu li li.sfHover li a { color:#fff; display:block; background:none; font-size:12px; font-weight:bold;  padding:0 13px; line-height:22px; }
+.sf-menu li li li a:hover,
+.sf-menu li li li.current a,
+.sf-menu li li li.sfHover a { background:url(../images/dropmenu_hover.png) repeat;}
+.sf-menu li li li.last a    { border:0; }
+
+.sf-menu li li li.sfHover li a { color:#fff; display:block; background:none; font-size:12px; font-weight:bold;  padding:0 13px; line-height:22px; }
+.sf-menu li li li li a:hover,
+.sf-menu li li li li.current a,
+.sf-menu li li li li.sfHover a { background:url(../images/dropmenu_hover.png) repeat;}
+
+.sf-menu li ul ul ul{ display:none;}
+
+/** Switch Direction in Inner Page **/
+.footer-menu ul { margin:0;}
+.footer-menu ul li{ float:left; background:url(../images/footer_line.jpg) right 4px no-repeat; padding-right:7px; margin-right:7px;}
+.footer-menu ul li.item32{ background:none;}
+.footer-menu ul li a{ color:#fff; text-decoration:none; font-size:95%; font-weight:bold; }
+.footer-menu ul li a:hover,.footer-menu ul li.active a{ color:#BB0020;}

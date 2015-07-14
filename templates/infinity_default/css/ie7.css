@@ -1,0 +1,10 @@
+
+
+#header .top-bar span.language ul{ right:38px; top:20px;}
+#header .main-menu .sf-menu li ul  { background:#fff; }
+#header .main-menu .sf-menu li ul li ul{ background:none;}
+.wrapper #main-container .leftmenu .sf-menu li{ padding-bottom:1px;}
+#header div.search input.input_search{ margin-left:4px}
+div.search input.button { width:17px;}
+#page ol { margin-left: 24px;}
+.newsletter .submit input{ margin-top:1px;}

@@ -1,0 +1,12 @@
+/* CSS Document */
+@import url(reset.css);
+
+/* Layout Style */
+@import url(layout1.css);
+
+/* Menu Style*/
+@import url(menu.css); 
+
+/* Joomla Style */
+@import url(joomla.css);
+ 
